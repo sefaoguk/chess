@@ -1,0 +1,88 @@
+.navbar{
+    background-color: black;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        width: auto;
+        height: auto;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        letter-spacing: 4px;
+        font-size: 19px;
+        span{
+            border-left: 2px solid white;
+            height: 70px;
+            padding: 10px 10px 10px 30px;
+            margin-left: 15px;
+            color: red;
+            font-size: 17px;
+        }
+    }
+}
+.container{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 200px;
+
+    .board{
+
+        display: flex;
+        justify-content: center;
+        .row
+        {  
+        border:5px solid rgba(116, 116, 116, 0.5);
+        box-shadow:0 0 20px rgba(116, 116, 116, 0.8);
+        border-radius: 5px;
+        display: flex; 
+        flex-direction: column;
+        width: auto;
+        flex-wrap: wrap;
+        height: auto;
+        margin-top:5%;
+        list-style: none;
+        border-
+
+            .boardItem{
+            display: flex;
+            height: 70px;
+            width: auto;
+            box-shadow: 0px 1px 10px rgba(116, 116, 116, 0.5);
+            &:nth-child(odd)
+            {
+                background-color: burlywood;
+                .column:nth-child(odd){
+                    background-color: brown;
+                }
+            }
+            &:nth-child(even)
+            {
+                background-color: brown;
+                .column:nth-child(odd){
+                    background-color: burlywood;
+                }
+            }
+
+            .column{
+                height: 70px;
+                width: 70px;    
+                
+            }
+            .black-pieces{
+            }
+                img{
+                padding:13px;
+                &:active{   
+                    border:3px solid rgb(128, 0, 0);
+                    padding:10px
+                
+                }
+            }
+        }
+    }
+    }
+}
